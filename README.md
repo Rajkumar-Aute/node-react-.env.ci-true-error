@@ -9,7 +9,8 @@ Solution
 
 add CI=falce in the running command.
 
-npm cache clean --force
-rm -rf node_modules package-lock.json
-npm install
-CI=false npm run build-dev
+npm cache clean --force \
+rm -rf node_modules package-lock.json \
+npm install \
+CI=false \ 
+npm run build-dev
